@@ -1,0 +1,236 @@
+
+
+
+import os
+os.system('clear')
+
+def bloque_100(saldo):
+    if(saldo >= 100 and saldo <= 199):
+        salida = rango_100(saldo)
+    return salida
+        
+def rango_100(saldo):
+    if(saldo == 100):
+        cien()
+    elif(saldo > 100):
+        ciento()
+    saldo -= 100
+    return saldo
+ 
+def cien():
+    print("cien")
+def cientos():
+    print("cientos")    
+def ciento():
+    print("ciento")
+
+def bloque_10(saldo):
+    if(saldo == 50):
+        cincuenta()
+
+def diez():
+    print("diez")
+def cincuenta():
+    print("cincuenta")
+
+def uno():
+    print("uno")
+def dos():
+    print("dos")
+    
+saldo = 150
+saldo = bloque_100(saldo)
+saldo = bloque_10(saldo)
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
+elif(saldo > 100 && saldo <= 199):
+    ciento()
+    saldo -= 100
+        
+elif(saldo >= 200 && saldo <= 299):
+    dos()
+    cientos()
+    saldo -= 200
+
+elif(saldo >= 300 && saldo <= 399):
+    tres()
+    cientos()
+    saldo -= 300
+
+elif(saldo >= 400 && saldo <= 499):
+    cuatro()
+    cientos()
+    saldo -= 400
+
+elif(saldo >= 500 && saldo <= 599):
+    quinientos()
+    saldo -= 500
+
+elif(saldo >= 600 && saldo <= 699):
+    seis()
+    cientos()
+    saldo -= 600
+      
+elif(saldo >= 700 && saldo <= 799):
+    setecientos()
+    saldo -= 700
+        
+elif(saldo >= 800 && saldo <= 899):
+    ocho()
+    cientos()
+    saldo -= 800
+        
+elif(saldo >= 900 && saldo <= 999):
+    novecientos()
+    saldo -= 900
+
+else()
+"""
+
+
+
+
+
+
+
+
+"""
+def rango_(saldo > 100 && saldo <= 199):
+    ciento()
+    saldo -= 100
+        
+elif(saldo >= 200 && saldo <= 299):
+    dos()
+    cientos()
+    saldo -= 200
+
+elif(saldo >= 300 && saldo <= 399):
+    tres()
+    cientos()
+    saldo -= 300
+
+elif(saldo >= 400 && saldo <= 499):
+    cuatro()
+    cientos()
+    saldo -= 400
+
+elif(saldo >= 500 && saldo <= 599):
+    quinientos()
+    saldo -= 500
+
+elif(saldo >= 600 && saldo <= 699):
+    seis()
+    cientos()
+    saldo -= 600
+      
+elif(saldo >= 700 && saldo <= 799):
+    setecientos()
+    saldo -= 700
+        
+elif(saldo >= 800 && saldo <= 899):
+    ocho()
+    cientos()
+    saldo -= 800
+        
+elif(saldo >= 900 && saldo <= 999):
+    novecientos()
+    saldo -= 900
+
+else()
+
+
+
+
+
+
+
+
+
+analisis
+
+uno=1
+dos=2
+tres=3
+cuatro=4
+cinco=5
+seis=6
+siete=7
+ocho=8
+nueve=9
+
+
+diez=10
+cien=100
+mil=1000
+diezmil= diez + mil
+cienmil= cien + mil
+millon=1000000
+
+
+veinte=20
+doscientos=200
+dosmil= dos + mil
+veintemil= veinte + mil
+doscientosmil= dos + cientos + mil
+
+
+treinta=30
+trescientos=300
+tresmil=3000
+treintamil=30000
+trescientosmil=300000
+
+
+cuarenta=40
+cuatrocientos=400
+cuatromil=3000
+cuarentamil=30000
+cuatrocientosmil=300000
+
+
+cincuenta=50
+quinientos=500
+cincomil=5000
+cincuentamil=50000
+quinientosmil=300000
+
+
+
+
+
+
+
+
+
+
+
+constantes extraordinarias
+
+quinientos
+cientos
+setecientos
+
+
+"""
+
+
+
+
+
+
+
+
+
+
