@@ -30,6 +30,30 @@ clear()
 
 #/////////////////////////////////////////////
 
+
+def bloque_10000(saldo):
+    if(saldo >= 10000 and saldo <= 19999):
+        salida = rango_10000(saldo)
+    elif(saldo >= 20000 and saldo <= 29999):
+        salida = rango_20000(saldo)
+    elif(saldo >= 30000 and saldo <= 39999):
+        salida = rango_30000(saldo)
+    elif(saldo >= 40000 and saldo <= 49999):
+        salida = rango_40000(saldo)
+    elif(saldo >= 50000 and saldo <= 59999):
+        salida = rango_50000(saldo)
+    elif(saldo >= 60000 and saldo <= 69999):
+        salida = rango_60000(saldo)
+    elif(saldo >= 70000 and saldo <= 79999):
+        salida = rango_70000(saldo)
+    elif(saldo >= 80000 and saldo <= 89999):
+        salida = rango_80000(saldo)
+    elif(saldo >= 90000 and saldo <= 99999):
+        salida = rango_90000(saldo)
+    else:
+        salida = saldo
+    return salida
+
 def bloque_1000(saldo):
     if(saldo >= 1000 and saldo <= 1999):
         salida = rango_1000(saldo)
@@ -184,34 +208,58 @@ def rango_10000(saldo):
     if(saldo >= 10000):
         diez()
         mil()
+    saldo -= 10000
+    return saldo
+    
 def rango_11000(saldo):
     if(saldo >= 11000):
         once()
         mil()
+    saldo -= 11000
+    return saldo
+        
 def rango_12000(saldo):
     if(saldo >= 12000):
         doce()
         mil()
+    saldo -= 12000
+    return saldo
+        
 def rango_13000(saldo):
     if(saldo >= 13000):
         diez()
         mil()
+    saldo -= 13000
+    return saldo
+        
 def rango_14000(saldo):
     if(saldo >= 14000):
         diez()
         mil()
+    saldo -= 14000
+    return saldo
+        
 def rango_15000(saldo):
     if(saldo >= 15000):
         diez()
         mil()
+    saldo -= 15000
+    return saldo
+        
 def rango_16000(saldo):
     if(saldo >= 16000):
         diez()
         mil()
+    saldo -= 16000
+    return saldo
+        
 def rango_17000(saldo):
     if(saldo >= 17000):
         diez()
         mil()
+    saldo -= 17000
+    return saldo
+        
 def rango_18000(saldo):
     if(saldo >= 18000):
         diez()
@@ -220,7 +268,8 @@ def rango_19000(saldo):
     if(saldo >= 19000):
         diez()
         mil()   
-        
+    saldo -= 19000
+    return saldo
         
         
     saldo -= 10000
@@ -538,6 +587,7 @@ def nueve():
 while(True):
     clear()
     saldo = int(input("número: "))
+    saldo = bloque_10000(saldo)
     saldo = bloque_1000(saldo)
     saldo = bloque_100(saldo)
     saldo = bloque_10(saldo)
