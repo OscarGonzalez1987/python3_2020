@@ -1,6 +1,7 @@
 # python3_2020
 
 Créditos:
+
    Óscar González
    T.O. ADSI-SENA en etapa productiva.
    Servicio Nacional de Aprendizaje SENA
@@ -16,3 +17,5 @@ Créditos:
    Si quieres participar
    Puedes unirte al grupo de WhatsApp:
    https://chat.whatsapp.com/DCxHDi1gdSm8VnuClWf05L
+
+   2020
