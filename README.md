@@ -10,7 +10,7 @@ Créditos:
 
    Alexander Giraldo
    Estudiante de Ingeniería en Sistemas
-   Universidad Remington
+   Universidad Remington<br>
    Sede principal - Medellín, Colombia
    alexandergiraldo905@gmail.com
 
