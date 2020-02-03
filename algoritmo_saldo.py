@@ -247,17 +247,52 @@ def rango_10000(saldo):
     elif(saldo >= 19000 and saldo <= 19999):
         diecinueve()
         mil()
-        saldo -= 19000       
+        saldo -= 19000
         
         
+def rango_20000(saldo):
+    if(saldo >= 20000 and saldo <= 20999):
+        veinte()
+        mil()
+        saldo -= 20000
+    elif(saldo >= 21000 and saldo <= 21999):
+        ventiuno()
+        mil()
+        saldo -= 21000
+    elif(saldo >= 22000 and saldo <= 22999):
+        ventidos()
+        mil()
+        saldo -= 22000
+    elif(saldo >= 23000 and saldo <= 23999):
+        ventitres()
+        mil()
+        saldo -= 23000
+    elif(saldo >= 24000 and saldo <= 24999):
+        venticuatro()
+        mil()
+        saldo -= 24000
+    elif(saldo >= 25000 and saldo <= 25999):
+        venticinco()
+        mil()
+        saldo -= 25000
+    elif(saldo >= 26000 and saldo <= 26999):
+        ventiseis()
+        mil()
+        saldo -= 26000
+    elif(saldo >= 27000 and saldo <= 27999):
+        ventisiete()
+        mil()
+        saldo -= 27000
+    elif(saldo >= 28000 and saldo <= 28999):
+        ventiocho()
+        mil()
+        saldo -= 28000
+    elif(saldo >= 29000 and saldo <= 29999):
+        ventinueve()
+        mil()
+        saldo -= 29000         
         
-        
-        
-        
-        
-        
-        
-        
+     
         
         
         
