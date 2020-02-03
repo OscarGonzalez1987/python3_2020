@@ -20,119 +20,39 @@ grant of patent rights.
 
 
 import os
-os.system('clear')
 
-def bloque_1000000(saldo):
-    if(saldo >= 1000000 and saldo <= 1999999):
-        millon()
-        salida = saldo - 1000000
+def clear():
+    if os.name == "nt":
+        os.system("cls")
     else:
-        salida = saldo
-    return salida
+        os.system("clear")
+clear()
 
-def bloque_100000(saldo):
-    if(saldo == 100000):
-        cien()
-        mil()
-        salida = saldo - 100000
-    if(saldo >= 100000 and saldo <= 199999):
-        rango_100(saldo)
-        salida = saldo - 100000
-    elif(saldo >= 200000 and saldo <= 299999):
-        rango_200(saldo)
-        salida = saldo - 200000
-    elif(saldo >= 300000 and saldo <= 399999):
-        rango_100(saldo)
-        salida = saldo - 300000
-    elif(saldo >= 400000 and saldo <= 499999):
-        cuatrocientos()
-        mil()
-        salida = saldo - 400000
-    elif(saldo >= 500000 and saldo <= 599999):
-        quinientos()
-        mil()
-        salida = saldo - 500000
-    elif(saldo >= 600000 and saldo <= 699999):
-        seiscientos()
-        mil()
-        salida = saldo - 600000
-    elif(saldo >= 700000 and saldo <= 799999):
-        setecientos()
-        mil()
-        salida = saldo - 700000
-    elif(saldo >= 800000 and saldo <= 899999):
-        ochocientos()
-        mil()
-        salida = saldo - 800000
-    elif(saldo >= 900000 and saldo <= 999999):
-        novecientos()
-        mil()
-        salida = saldo - 900000         
-    else:
-        salida = saldo
-    return salida
+#/////////////////////////////////////////////
 
-def bloque_10000(saldo):
-    if(saldo >= 10000 and saldo <= 19999):
-        diez()
-        mil()
-        salida = saldo - 10000
-        
-    if(saldo >= 20000 and saldo <= 29999):
-        veinte()
-        mil()
-        salida = saldo - 20000
-        
-    if(saldo >= 30000 and saldo <= 39999):
-        treinta()
-        mil()
-        salida = saldo - 30000
-        
-    if(saldo >= 40000 and saldo <= 49999):
-        cuarenta()
-        mil()
-        salida = saldo - 40000
-        
-    if(saldo >= 50000 and saldo <= 59999):
-        cincuenta()
-        mil()
-        salida = saldo - 50000
-        
-    if(saldo >= 60000 and saldo <= 69999):
-        sesenta()
-        mil()
-        salida = saldo - 60000
-        
-    if(saldo >= 70000 and saldo <= 79999):
-        setenta()
-        mil()
-        salida = saldo - 70000
-        
-    if(saldo >= 80000 and saldo <= 89999):
-        ochenta()
-        mil()
-        salida = saldo - 80000
-        
-    if(saldo >= 90000 and saldo <= 99999):
-        noventa()
-        mil()
-        salida = saldo - 90000
-        
-    else:
-        salida = saldo
-    return salida
-    
-    
-    
-    
-  
-def bloque_1000(saldo):   
+def bloque_1000(saldo):
     if(saldo >= 1000 and saldo <= 1999):
-        salida = rango_1000(1000)
+        salida = rango_1000(saldo)
+    elif(saldo >= 2000 and saldo <= 2999):
+        salida = rango_2000(saldo)
+    elif(saldo >= 3000 and saldo <= 3999):
+        salida = rango_3000(saldo)
+    elif(saldo >= 4000 and saldo <= 4999):
+        salida = rango_4000(saldo)
+    elif(saldo >= 5000 and saldo <= 5999):
+        salida = rango_5000(saldo)
+    elif(saldo >= 6000 and saldo <= 6999):
+        salida = rango_6000(saldo)
+    elif(saldo >= 7000 and saldo <= 7999):
+        salida = rango_7000(saldo)
+    elif(saldo >= 8000 and saldo <= 8999):
+        salida = rango_8000(saldo)
+    elif(saldo >= 9000 and saldo <= 9999):
+        salida = rango_9000(saldo)
     else:
         salida = saldo
     return salida
-    
+
 def bloque_100(saldo):
     if(saldo >= 100 and saldo <= 199):
         salida = rango_100(saldo)
@@ -260,10 +180,116 @@ def bloque_0(saldo):
     
     
 #/////////////////////////////////////////////
+def rango_10000(saldo):
+    if(saldo >= 10000):
+        diez()
+        mil()
+def rango_11000(saldo):
+    if(saldo >= 11000):
+        once()
+        mil()
+def rango_12000(saldo):
+    if(saldo >= 12000):
+        doce()
+        mil()
+def rango_13000(saldo):
+    if(saldo >= 13000):
+        diez()
+        mil()
+def rango_14000(saldo):
+    if(saldo >= 14000):
+        diez()
+        mil()
+def rango_15000(saldo):
+    if(saldo >= 15000):
+        diez()
+        mil()
+def rango_16000(saldo):
+    if(saldo >= 16000):
+        diez()
+        mil()
+def rango_17000(saldo):
+    if(saldo >= 17000):
+        diez()
+        mil()
+def rango_18000(saldo):
+    if(saldo >= 18000):
+        diez()
+        mil()
+def rango_19000(saldo):
+    if(saldo >= 19000):
+        diez()
+        mil()   
+        
+        
+        
+    saldo -= 10000
+    return saldo
+       
+#/////////////////////////////////////////////
 def rango_1000(saldo):
     if(saldo == 1000):
         mil()
+    elif(saldo > 1000):
+        mil()
     saldo -= 1000
+    return saldo
+    
+def rango_2000(saldo):
+    if(saldo >= 2000):
+        dos()
+        mil()
+    saldo -= 2000
+    return saldo
+    
+def rango_3000(saldo):
+    if(saldo >= 3000):
+        tres()
+        mil()
+    saldo -= 3000
+    return saldo 
+    
+def rango_4000(saldo):
+    if(saldo >= 4000):
+        cuatro()
+        mil()
+    saldo -= 4000
+    return saldo 
+    
+def rango_5000(saldo):
+    if(saldo >= 5000):
+        cinco()
+        mil()
+    saldo -= 5000
+    return saldo
+    
+def rango_6000(saldo):
+    if(saldo >= 6000):
+        seis()
+        mil()
+    saldo -= 6000
+    return saldo 
+    
+def rango_7000(saldo):
+    if(saldo >= 7000):
+       siete()
+       mil()
+    saldo -= 7000
+    return saldo
+    
+    
+def rango_8000(saldo):
+    if(saldo >= 8000):
+        ocho()
+        mil()
+    saldo -= 8000
+    return saldo
+    
+def rango_9000(saldo):
+    if(saldo >= 9000):
+        nueve()
+        mil()
+    saldo -= 9000
     return saldo
     
 #/////////////////////////////////////////////
@@ -510,18 +536,14 @@ def nueve():
     print("nueve")
 #/////////////////////////////////////////////
 while(True):
-    os.system('clear')
+    clear()
     saldo = int(input("número: "))
-    saldo = bloque_1000000(saldo)
-    saldo = bloque_100000(saldo)
     saldo = bloque_10000(saldo)
     saldo = bloque_1000(saldo)
     saldo = bloque_100(saldo)
     saldo = bloque_10(saldo)
     saldo = bloque_0(saldo)
     pare = input()
-
-
 a=input()
 
 
@@ -655,7 +677,6 @@ diezmil= diez + mil
 cienmil= cien + mil
 millon=1000000
 
-
 veinte=20
 doscientos=200
 dosmil= dos + mil
@@ -676,41 +697,15 @@ cuatromil=3000
 cuarentamil=30000
 cuatrocientosmil=300000
 
-
 cincuenta=50
 quinientos=500
 cincomil=5000
 cincuentamil=50000
 quinientosmil=300000
 
-
-
-
-
-
-
-
-
-
-
 constantes extraordinarias
-
 quinientos
 cientos
 setecientos
 
-
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
