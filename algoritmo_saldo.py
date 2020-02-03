@@ -295,7 +295,56 @@ def rango_20000(saldo):
      
         
         
-        
+def rango_30000(saldo):
+    if(saldo >= 30000 and saldo <= 30999):
+        bloque_10(30)
+        mil()
+        saldo -= 30000
+    elif(saldo >= 31000 and saldo <= 31999):
+        bloque_10(31)
+        bloque_0(1)
+        mil()
+        saldo -= 31000
+    elif(saldo >= 32000 and saldo <= 32999):
+        bloque_10(32)
+        bloque_0(2)
+        mil()
+        saldo -= 32000
+    elif(saldo >= 33000 and saldo <= 33999):
+        bloque_10(33)
+        bloque_0(3)
+        mil()
+        saldo -= 33000
+    elif(saldo >= 34000 and saldo <= 34999):
+        bloque_10(34)
+        bloque_0(4)
+        mil()
+        saldo -= 34000
+    elif(saldo >= 35000 and saldo <= 35999):
+        bloque_10(35)
+        bloque_0(5)
+        mil()
+        saldo -= 35000
+    elif(saldo >= 36000 and saldo <= 36999):
+        bloque_10(36)
+        bloque_0(6)
+        mil()
+        saldo -= 36000
+    elif(saldo >= 37000 and saldo <= 37999):
+        bloque_10(37)
+        bloque_0(7)
+        mil()
+        saldo -= 37000
+    elif(saldo >= 38000 and saldo <= 38999):
+        bloque_10(38)
+        bloque_0(8)
+        mil()
+        saldo -= 38000
+    elif(saldo >= 39000 and saldo <= 39999):
+        bloque_10(39)
+        bloque_0(9)
+        mil()
+        saldo -= 39000   
         
         
         
