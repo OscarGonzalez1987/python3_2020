@@ -204,75 +204,67 @@ def bloque_0(saldo):
     
     
 #/////////////////////////////////////////////
+
+        
+        
 def rango_10000(saldo):
-    if(saldo >= 10000):
+    if(saldo >= 10000 and saldo <= 10999):
         diez()
         mil()
-    saldo -= 10000
-    return saldo
-    
-def rango_11000(saldo):
-    if(saldo >= 11000):
+        saldo -= 10000
+    elif(saldo >= 11000 and saldo <= 11999):
         once()
         mil()
-    saldo -= 11000
-    return saldo
-        
-def rango_12000(saldo):
-    if(saldo >= 12000):
+        saldo -= 11000
+    elif(saldo >= 12000 and saldo <= 12999):
         doce()
         mil()
-    saldo -= 12000
-    return saldo
-        
-def rango_13000(saldo):
-    if(saldo >= 13000):
-        diez()
+        saldo -= 12000
+    elif(saldo >= 13000 and saldo <= 13999):
+        trece()
         mil()
-    saldo -= 13000
-    return saldo
-        
-def rango_14000(saldo):
-    if(saldo >= 14000):
-        diez()
+        saldo -= 13000
+    elif(saldo >= 14000 and saldo <= 14999):
+        catorce()
         mil()
-    saldo -= 14000
-    return saldo
-        
-def rango_15000(saldo):
-    if(saldo >= 15000):
-        diez()
+        saldo -= 14000
+    elif(saldo >= 15000 and saldo <= 15999):
+        quince()
         mil()
-    saldo -= 15000
-    return saldo
-        
-def rango_16000(saldo):
-    if(saldo >= 16000):
-        diez()
+        saldo -= 15000
+    elif(saldo >= 16000 and saldo <= 16999):
+        dieciseis()
         mil()
-    saldo -= 16000
-    return saldo
-        
-def rango_17000(saldo):
-    if(saldo >= 17000):
-        diez()
+        saldo -= 16000
+    elif(saldo >= 17000 and saldo <= 17999):
+        diecisiete()
         mil()
-    saldo -= 17000
-    return saldo
-        
-def rango_18000(saldo):
-    if(saldo >= 18000):
-        diez()
+        saldo -= 17000
+    elif(saldo >= 18000 and saldo <= 18999):
+        dieciocho()
         mil()
-def rango_19000(saldo):
-    if(saldo >= 19000):
-        diez()
-        mil()   
-    saldo -= 19000
-    return saldo
+        saldo -= 18000
+    elif(saldo >= 19000 and saldo <= 19999):
+        diecinueve()
+        mil()
+        saldo -= 19000       
         
         
-    saldo -= 10000
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     return saldo
        
 #/////////////////////////////////////////////
