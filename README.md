@@ -2,7 +2,7 @@
 
 Créditos:
 
-   Óscar González
+   Óscar González<br>
    T.O. ADSI-SENA en etapa productiva.
    Servicio Nacional de Aprendizaje SENA
    Regional Norte de Santander - Cúcuta, Colombia
