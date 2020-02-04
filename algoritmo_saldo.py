@@ -1006,10 +1006,14 @@ def nueve():
 while(True):
     clear()
     saldo = int(input("número: "))
-    saldo = bloque_10000(saldo)
-    saldo = bloque_1000(saldo)
-    saldo = bloque_100(saldo)
-    saldo = bloque_10(saldo)
-    saldo = bloque_0(saldo)
-    pare = input()
+    if(saldo == 0):
+        cero()
+        pare = input()
+    else:
+        saldo = bloque_10000(saldo)
+        saldo = bloque_1000(saldo)
+        saldo = bloque_100(saldo)
+        saldo = bloque_10(saldo)
+        saldo = bloque_0(saldo)
+        pare = input()
 a=input()
