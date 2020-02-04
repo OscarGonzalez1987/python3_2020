@@ -65,7 +65,7 @@ function bloque_10000($saldo) {
     } elseif ($saldo >= 90000 && $saldo <= 99999) {
         $salida = rango_90000($saldo);
     } else {
-        $salida = $saldo;
+        $salida['numero'] = $saldo;
     }
     return $salida;
 }
@@ -122,81 +122,82 @@ function bloque_100($saldo) {
 
 function bloque_10($saldo) {
     if ($saldo == 10) {
-        diez();
-        $salida = 0;
+        $salida['texto'] = diez();
+        $salida['numero'] = 0;
     } elseif ($saldo == 11) {
-        once();
-        $salida = 0;
+        $salida['texto'] = once();
+        $salida['numero'] = 0;
     } elseif ($saldo == 12) {
-        doce();
-        $salida = 0;
+        $salida['texto'] = doce();
+        $salida['numero'] = 0;
     } elseif ($saldo == 13) {
-        trece();
-        $salida = 0;
+        $salida['texto'] = trece();
+        $salida['numero'] = 0;
     } elseif ($saldo == 14) {
-        catorce();
-        $salida = 0;
+        $salida['texto'] = catorce();
+        $salida['numero'] = 0;
     } elseif ($saldo == 15) {
-        quince();
-        $salida = 0;
+        $salida['texto'] = quince();
+        $salida['numero'] = 0;
     } elseif ($saldo == 16) {
-        dieciseis();
-        $salida = 0;
+        $salida['texto'] = dieciseis();
+        $salida['numero'] = 0;
     } elseif ($saldo == 17) {
-        diecisiete();
-        $salida = 0;
+        $salida['texto'] = diecisiete();
+        $salida['numero'] = 0;
     } elseif ($saldo == 18) {
-        dieciocho();
-        $salida = 0;
+        $salida['texto'] = dieciocho();
+        $salida['numero'] = 0;
     } elseif ($saldo == 19) {
-        diecinueve();
-        $salida = 0;
+        $salida['texto'] = diecinueve();
+        $salida['numero'] = 0;
     } elseif ($saldo == 20) {
-        veinte();
-        $salida = 0;
+        $salida['texto'] = veinte();
+        $salida['numero'] = 0;
     } elseif ($saldo == 21) {
-        ventiuno();
-        $salida = 0;
+        $salida['texto'] = ventiuno();
+        $salida['numero'] = 0;
     } elseif ($saldo == 22) {
-        ventidos();
-        $salida = 0;
+        $salida['texto'] = ventidos();
+        $salida['numero'] = 0;
     } elseif ($saldo == 23) {
-        ventitres();
-        $salida = 0;
+        $salida['texto'] = ventitres();
+        $salida['numero'] = 0;
     } elseif ($saldo == 24) {
-        venticuatro();
-        $salida = 0;
+        $salida['texto'] = venticuatro();
+        $salida['numero'] = 0;
     } elseif ($saldo == 25) {
-        venticinco();
-        $salida = 0;
+        $salida['texto'] = venticinco();
+        $salida['numero'] = 0;
     } elseif ($saldo == 26) {
-        ventiseis();
-        $salida = 0;
+        $salida['texto'] = ventiseis();
+        $salida['numero'] = 0;
     } elseif ($saldo == 27) {
-        ventisiete();
-        $salida = 0;
+        $salida['texto'] = ventisiete();
+        $salida['numero'] = 0;
     } elseif ($saldo == 28) {
-        ventiocho();
-        $salida = 0;
+        $salida['texto'] = ventiocho();
+        $salida['numero'] = 0;
     } elseif ($saldo == 29) {
-        ventinueve();
-        $salida = 0;
+        $salida['texto'] = ventinueve();
+        $salida['numero'] = 0;
     } elseif ($saldo >= 30 && $saldo <= 39) {
-        $salida = rango_30($saldo);
+        $salida['numero'] = rango_30($saldo);
     } elseif ($saldo >= 40 && $saldo <= 49) {
-        $salida = rango_40($saldo);
+        $salida['numero'] = rango_40($saldo);
     } elseif ($saldo >= 50 && $saldo <= 59) {
-        $salida = rango_50($saldo);
+        $salida['numero'] = rango_50($saldo);
     } elseif ($saldo >= 60 && $saldo <= 69) {
-        $salida = rango_60($saldo);
+        $salida['numero'] = rango_60($saldo);
     } elseif ($saldo >= 70 && $saldo <= 79) {
-        $salida = rango_70($saldo);
+        $salida['numero'] = rango_70($saldo);
     } elseif ($saldo >= 80 && $saldo <= 89) {
-        $salida = rango_80($saldo);
+        $salida['numero'] = rango_80($saldo);
     } elseif ($saldo >= 90 && $saldo <= 99) {
-        $salida = rango_90($saldo);
+        $salida['numero'] = rango_90($saldo);
     } else {
-        $salida = $saldo;
+        $salida['texto'] = "";
+        $salida['numero'] = $saldo;
     }
     return $salida;
 }
@@ -205,25 +206,30 @@ function bloque_10($saldo) {
 
 function bloque_0($saldo) {
     if ($saldo == 1) {
-        uno();
+        $salida['texto'] = uno();
     } elseif ($saldo == 2) {
-        dos();
+        $salida['texto'] = dos();
     } elseif ($saldo == 3) {
-        tres();
+        $salida['texto'] = tres();
     } elseif ($saldo == 4) {
-        cuatro();
+        $salida['texto'] = cuatro();
     } elseif ($saldo == 5) {
-        cinco();
+        $salida['texto'] = cinco();
     } elseif ($saldo == 6) {
-        seis();
+        $salida['texto'] = seis();
     } elseif ($saldo == 7) {
-        siete();
+        $salida['texto'] = siete();
     } elseif ($saldo == 8) {
-        ocho();
+        $salida['texto'] = ocho();
     } elseif ($saldo == 9) {
-        nueve();
-        return 0;
+        $salida['texto'] = nueve();
+    } else{
+        $salida['texto'] = "";
+        $salida['numero'] = 0;
+        
     }
+    
+     return $salida;
 }
 
 function rango_10000($saldo) {
@@ -929,246 +935,306 @@ function rango_90($saldo) {
 #/////////////////////////////////////////////
 
 function mil() {
-    echo "mil ";
+    $texto = "mil ";
+    return $texto;
 }
 
 function millon() {
-    echo "millon ";
-#/////////////////////////////////////////////
+    $texto = "millon ";
+    return $texto;
 }
 
 function cien() {
-    echo "cien ";
+    $texto = "cien ";
+    return $texto;
 }
 
 function doscientos() {
-    echo "doscientos ";
+    $texto = "doscientos ";
+    return $texto;
 }
 
 function trescientos() {
-    echo "trescientos ";
+    $texto = "trescientos ";
+    return $texto;
 }
 
 function cuatrocientos() {
-    echo "cuatrocientos ";
+    $texto = "cuatrocientos ";
+    return $texto;
 }
 
 function quinientos() {
-    echo "quinientos ";
+    $texto = "quinientos ";
+    return $texto;
 }
 
 function seiscientos() {
-    echo "seiscientos ";
+    $texto = "seiscientos ";
+    return $texto;
 }
 
 function setecientos() {
-    echo "setecientos ";
+    $texto = "setecientos ";
+    return $texto;
 }
 
 function ochocientos() {
-    echo "ochocientos ";
+    $texto = "ochocientos ";
+    return $texto;
 }
 
 function novecientos() {
-    echo "novecientos ";
+    $texto = "novecientos ";
 #/////////////////////////////////////////////
+    return $texto;
 }
 
 function ciento() {
-    echo "ciento ";
+    $texto = "ciento ";
 #/////////////////////////////////////////////
+    return $texto;
 }
 
 function diez() {
-    echo "diez ";
+    $texto = "diez ";
+    return $texto;
 }
 
 function once() {
-    echo "once ";
+    $texto = "once ";
+    return $texto;
 }
 
 function doce() {
-    echo "doce ";
+    $texto = "doce ";
+    return $texto;
 }
 
 function trece() {
-    echo "trece ";
+    $texto = "trece ";
+    return $texto;
 }
 
 function catorce() {
-    echo "catorce ";
+    $texto = "catorce ";
+    return $texto;
 }
 
 function quince() {
-    echo "quince ";
+    $texto = "quince ";
+    return $texto;
 }
 
 function dieciseis() {
-    echo "dieciseis ";
+    $texto = "dieciseis ";
+    return $texto;
 }
 
 function diecisiete() {
-    echo "diecisiete ";
+    $texto = "diecisiete ";
+    return $texto;
 }
 
 function dieciocho() {
-    echo "dieciocho ";
+    $texto = "dieciocho ";
+    return $texto;
 }
 
 function diecinueve() {
-    echo "diecinueve ";
+    $texto = "diecinueve ";
 #/////////////////////////////////////////////
+    return $texto;
 }
 
 function veinte() {
-    echo "veinte ";
+    $texto = "veinte ";
+    return $texto;
 }
 
 function ventiuno() {
-    echo "ventiun ";
+    $texto = "ventiun ";
+    return $texto;
 }
 
 function ventidos() {
-    echo "ventidos ";
+    $texto = "ventidos ";
+    return $texto;
 }
 
 function ventitres() {
-    echo "ventitres ";
+    $texto = "ventitres ";
+    return $texto;
 }
 
 function venticuatro() {
-    echo "venticuatro ";
+    $texto = "venticuatro ";
+    return $texto;
 }
 
 function venticinco() {
-    echo "venticinco ";
+    $texto = "venticinco ";
+    return $texto;
 }
 
 function ventiseis() {
-    echo "ventiseis ";
+    $texto = "ventiseis ";
+    return $texto;
 }
 
 function ventisiete() {
-    echo "ventisiete ";
+    $texto = "ventisiete ";
+    return $texto;
 }
 
 function ventiocho() {
-    echo "ventiocho ";
+    $texto = "ventiocho ";
+    return $texto;
 }
 
 function ventinueve() {
-    echo "ventinueve ";
+    $texto = "ventinueve ";
 #/////////////////////////////////////////////
+    return $texto;
 }
 
 function treinta() {
-    echo "treinta ";
+    $texto = "treinta ";
+    return $texto;
 }
 
 function treinta_y() {
-    echo "treinta y ";
+    $texto = "treinta y ";
+    return $texto;
 }
 
 function cuarenta() {
-    echo "cuarenta ";
+    $texto = "cuarenta ";
+    return $texto;
 }
 
 function cuarenta_y() {
-    echo "cuarenta y ";
+    $texto = "cuarenta y ";
+    return $texto;
 }
 
 function cincuenta() {
-    echo "cincuenta ";
+    $texto = "cincuenta ";
+    return $texto;
 }
 
 function cincuenta_y() {
-    echo "cincuenta y ";
+    $texto = "cincuenta y ";
+    return $texto;
 }
 
 function sesenta() {
-    echo "sesenta ";
+    $texto = "sesenta ";
+    return $texto;
 }
 
 function sesenta_y() {
-    echo "sesenta y ";
+    $texto = "sesenta y ";
+    return $texto;
 }
 
 function setenta() {
-    echo "setenta ";
+    $texto = "setenta ";
+    return $texto;
 }
 
 function setenta_y() {
-    echo "setenta y ";
+    $texto = "setenta y ";
+    return $texto;
 }
 
 function ochenta() {
-    echo "ochenta ";
+    $texto = "ochenta ";
+    return $texto;
 }
 
 function ochenta_y() {
-    echo "ochenta y ";
+    $texto = "ochenta y ";
+    return $texto;
 }
 
 function noventa() {
-    echo "noventa ";
+    $texto = "noventa ";
+    return $texto;
 }
 
 function noventa_y() {
-    echo "noventa y ";
+    $texto = "noventa y ";
 
 #/////////////////////////////////////////////
+    return $texto;
 }
 
 function cero() {
-    echo "cero ";
+    $texto = "cero ";
 #/////////////////////////////////////////////
+    return $texto;
 }
 
 function uno() {
-    echo "un ";
+    $texto = "un ";
+    return $texto;
 }
 
 function dos() {
-    echo "dos ";
+    $texto = "dos ";
+    return $texto;
 }
 
 function tres() {
-    echo "tres ";
+    $texto = "tres ";
+    return $texto;
 }
 
 function cuatro() {
-    echo "cuatro ";
+    $texto = "cuatro ";
+    return $texto;
 }
 
 function cinco() {
-    echo "cinco ";
+    $texto = "cinco ";
+    return $texto;
 }
 
 function seis() {
-    echo "seis ";
+    $texto = "seis ";
+    return $texto;
 }
 
 function siete() {
-    echo "siete ";
+    $texto = "siete ";
+    return $texto;
 }
 
 function ocho() {
-    echo "ocho ";
+    $texto = "ocho ";
+    return $texto;
 }
 
 function nueve() {
-    echo "nueve ";
+    $texto = "nueve ";
+    return $texto;
 }
 
 #/////////////////////////////////////////////
-$saldo = 99999;
+$saldo = 29;
+
+
 if ($saldo == 0) {
     cero();
 } else {
-    $saldo = bloque_10000($saldo);
-    $saldo = bloque_1000($saldo);
-    $saldo = bloque_100($saldo);
-    $saldo = bloque_10($saldo);
-    $saldo = bloque_0($saldo);
+    $texto = " ";
+    $medio = bloque_10($saldo);
+    $texto = $texto ." ". $medio['texto'];
+    $medio = bloque_0($medio['numero']);
+    echo $medio['texto'];
+    echo $medio['numero'];
+    $texto = $texto ." ". $medio['texto'];
+    echo $texto;
 }
 ?>
