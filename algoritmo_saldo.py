@@ -29,6 +29,28 @@ def clear():
 clear()
 
 #/////////////////////////////////////////////
+def bloque_100000(saldo):
+    if(saldo >= 100000 and saldo <= 1999999):
+        salida = rango_100000(saldo)
+    elif(saldo >= 200000 and saldo <= 299999):
+        salida = rango_200000(saldo)
+    elif(saldo >= 300000 and saldo <= 399999):
+        salida = rango_300000(saldo)
+    elif(saldo >= 400000 and saldo <= 499999):
+        salida = rango_400000(saldo)
+    elif(saldo >= 500000 and saldo <= 599999):
+        salida = rango_500000(saldo)
+    elif(saldo >= 600000 and saldo <= 699999):
+        salida = rango_600000(saldo)
+    elif(saldo >= 700000 and saldo <= 799999):
+        salida = rango_700000(saldo)
+    elif(saldo >= 800000 and saldo <= 899999):
+        salida = rango_800000(saldo)
+    elif(saldo >= 900000 and saldo <= 999999):
+        salida = rango_900000(saldo)
+    else:
+        salida = saldo
+    return salida
 
 
 def bloque_10000(saldo):
@@ -201,11 +223,8 @@ def bloque_0(saldo):
     return 0
     
     
-    
-    
 #/////////////////////////////////////////////
-
-        
+     
         
 def rango_10000(saldo):
     if(saldo >= 10000 and saldo <= 10999):
@@ -248,7 +267,7 @@ def rango_10000(saldo):
         diecinueve()
         mil()
         saldo -= 19000
-        
+    return saldo
         
 def rango_20000(saldo):
     if(saldo >= 20000 and saldo <= 20999):
@@ -291,7 +310,7 @@ def rango_20000(saldo):
         ventinueve()
         mil()
         saldo -= 29000         
-        
+    return saldo        
      
         
         
@@ -344,13 +363,337 @@ def rango_30000(saldo):
         bloque_10(39)
         bloque_0(9)
         mil()
-        saldo -= 39000   
-        
-        
-        
-        
+        saldo -= 39000 
     return saldo
-       
+
+
+def rango_40000(saldo):
+    if(saldo >= 40000 and saldo <= 40999):
+        bloque_10(40)
+        mil()
+        saldo -= 40000
+    elif(saldo >= 41000 and saldo <= 41999):
+        bloque_10(41)
+        bloque_0(1)
+        mil()
+        saldo -= 41000
+    elif(saldo >= 42000 and saldo <= 42999):
+        bloque_10(42)
+        bloque_0(2)
+        mil()
+        saldo -= 42000
+    elif(saldo >= 43000 and saldo <= 43999):
+        bloque_10(43)
+        bloque_0(3)
+        mil()
+        saldo -= 43000
+    elif(saldo >= 44000 and saldo <= 44999):
+        bloque_10(44)
+        bloque_0(4)
+        mil()
+        saldo -= 44000
+    elif(saldo >= 45000 and saldo <= 45999):
+        bloque_10(45)
+        bloque_0(5)
+        mil()
+        saldo -= 45000
+    elif(saldo >= 46000 and saldo <= 46999):
+        bloque_10(46)
+        bloque_0(6)
+        mil()
+        saldo -= 46000
+    elif(saldo >= 47000 and saldo <= 47999):
+        bloque_10(47)
+        bloque_0(7)
+        mil()
+        saldo -= 47000
+    elif(saldo >= 48000 and saldo <= 48999):
+        bloque_10(48)
+        bloque_0(8)
+        mil()
+        saldo -= 48000
+    elif(saldo >= 49000 and saldo <= 49999):
+        bloque_10(49)
+        bloque_0(9)
+        mil()
+        saldo -= 49000 
+    return saldo
+
+
+def rango_50000(saldo):
+    if(saldo >= 50000 and saldo <= 50999):
+        bloque_10(50)
+        mil()
+        saldo -= 50000
+    elif(saldo >= 51000 and saldo <= 51999):
+        bloque_10(51)
+        bloque_0(1)
+        mil()
+        saldo -= 51000
+    elif(saldo >= 52000 and saldo <= 52999):
+        bloque_10(52)
+        bloque_0(2)
+        mil()
+        saldo -= 52000
+    elif(saldo >= 53000 and saldo <= 53999):
+        bloque_10(53)
+        bloque_0(3)
+        mil()
+        saldo -= 53000
+    elif(saldo >= 54000 and saldo <= 54999):
+        bloque_10(54)
+        bloque_0(4)
+        mil()
+        saldo -= 54000
+    elif(saldo >= 55000 and saldo <= 55999):
+        bloque_10(55)
+        bloque_0(5)
+        mil()
+        saldo -= 55000
+    elif(saldo >= 56000 and saldo <= 56999):
+        bloque_10(56)
+        bloque_0(6)
+        mil()
+        saldo -= 56000
+    elif(saldo >= 57000 and saldo <= 57999):
+        bloque_10(57)
+        bloque_0(7)
+        mil()
+        saldo -= 57000
+    elif(saldo >= 58000 and saldo <= 58999):
+        bloque_10(58)
+        bloque_0(8)
+        mil()
+        saldo -= 58000
+    elif(saldo >= 59000 and saldo <= 59999):
+        bloque_10(59)
+        bloque_0(9)
+        mil()
+        saldo -= 59000 
+    return saldo
+
+
+def rango_60000(saldo):
+    if(saldo >= 60000 and saldo <= 60999):
+        bloque_10(60)
+        mil()
+        saldo -= 60000
+    elif(saldo >= 61000 and saldo <= 61999):
+        bloque_10(61)
+        bloque_0(1)
+        mil()
+        saldo -= 61000
+    elif(saldo >= 62000 and saldo <= 62999):
+        bloque_10(62)
+        bloque_0(2)
+        mil()
+        saldo -= 62000
+    elif(saldo >= 63000 and saldo <= 63999):
+        bloque_10(63)
+        bloque_0(3)
+        mil()
+        saldo -= 63000
+    elif(saldo >= 64000 and saldo <= 64999):
+        bloque_10(64)
+        bloque_0(4)
+        mil()
+        saldo -= 64000
+    elif(saldo >= 65000 and saldo <= 65999):
+        bloque_10(65)
+        bloque_0(5)
+        mil()
+        saldo -= 65000
+    elif(saldo >= 66000 and saldo <= 66999):
+        bloque_10(66)
+        bloque_0(6)
+        mil()
+        saldo -= 66000
+    elif(saldo >= 67000 and saldo <= 67999):
+        bloque_10(67)
+        bloque_0(7)
+        mil()
+        saldo -= 67000
+    elif(saldo >= 68000 and saldo <= 68999):
+        bloque_10(68)
+        bloque_0(8)
+        mil()
+        saldo -= 68000
+    elif(saldo >= 69000 and saldo <= 69999):
+        bloque_10(69)
+        bloque_0(9)
+        mil()
+        saldo -= 69000 
+    return saldo
+
+
+def rango_70000(saldo):
+    if(saldo >= 70000 and saldo <= 70999):
+        bloque_10(70)
+        mil()
+        saldo -= 70000
+    elif(saldo >= 71000 and saldo <= 71999):
+        bloque_10(71)
+        bloque_0(1)
+        mil()
+        saldo -= 71000
+    elif(saldo >= 72000 and saldo <= 72999):
+        bloque_10(72)
+        bloque_0(2)
+        mil()
+        saldo -= 72000
+    elif(saldo >= 73000 and saldo <= 73999):
+        bloque_10(73)
+        bloque_0(3)
+        mil()
+        saldo -= 73000
+    elif(saldo >= 74000 and saldo <= 74999):
+        bloque_10(74)
+        bloque_0(4)
+        mil()
+        saldo -= 74000
+    elif(saldo >= 75000 and saldo <= 75999):
+        bloque_10(75)
+        bloque_0(5)
+        mil()
+        saldo -= 75000
+    elif(saldo >= 76000 and saldo <= 76999):
+        bloque_10(76)
+        bloque_0(6)
+        mil()
+        saldo -= 76000
+    elif(saldo >= 77000 and saldo <= 77999):
+        bloque_10(77)
+        bloque_0(7)
+        mil()
+        saldo -= 77000
+    elif(saldo >= 78000 and saldo <= 78999):
+        bloque_10(78)
+        bloque_0(8)
+        mil()
+        saldo -= 78000
+    elif(saldo >= 79000 and saldo <= 79999):
+        bloque_10(79)
+        bloque_0(9)
+        mil()
+        saldo -= 79000 
+    return saldo
+
+
+def rango_80000(saldo):
+    if(saldo >= 80000 and saldo <= 80999):
+        bloque_10(80)
+        mil()
+        saldo -= 80000
+    elif(saldo >= 81000 and saldo <= 81999):
+        bloque_10(81)
+        bloque_0(1)
+        mil()
+        saldo -= 81000
+    elif(saldo >= 82000 and saldo <= 82999):
+        bloque_10(82)
+        bloque_0(2)
+        mil()
+        saldo -= 82000
+    elif(saldo >= 83000 and saldo <= 83999):
+        bloque_10(83)
+        bloque_0(3)
+        mil()
+        saldo -= 83000
+    elif(saldo >= 84000 and saldo <= 84999):
+        bloque_10(84)
+        bloque_0(4)
+        mil()
+        saldo -= 84000
+    elif(saldo >= 85000 and saldo <= 85999):
+        bloque_10(85)
+        bloque_0(5)
+        mil()
+        saldo -= 85000
+    elif(saldo >= 86000 and saldo <= 86999):
+        bloque_10(86)
+        bloque_0(6)
+        mil()
+        saldo -= 86000
+    elif(saldo >= 87000 and saldo <= 87999):
+        bloque_10(87)
+        bloque_0(7)
+        mil()
+        saldo -= 87000
+    elif(saldo >= 88000 and saldo <= 88999):
+        bloque_10(88)
+        bloque_0(8)
+        mil()
+        saldo -= 88000
+    elif(saldo >= 89000 and saldo <= 89999):
+        bloque_10(89)
+        bloque_0(9)
+        mil()
+        saldo -= 89000 
+    return saldo
+    
+    
+    
+def rango_90000(saldo):
+    if(saldo >= 90000 and saldo <= 90999):
+        bloque_10(90)
+        mil()
+        saldo -= 90000
+    elif(saldo >= 91000 and saldo <= 91999):
+        bloque_10(91)
+        bloque_0(1)
+        mil()
+        saldo -= 91000
+    elif(saldo >= 92000 and saldo <= 92999):
+        bloque_10(92)
+        bloque_0(2)
+        mil()
+        saldo -= 92000
+    elif(saldo >= 93000 and saldo <= 93999):
+        bloque_10(93)
+        bloque_0(3)
+        mil()
+        saldo -= 93000
+    elif(saldo >= 94000 and saldo <= 94999):
+        bloque_10(94)
+        bloque_0(4)
+        mil()
+        saldo -= 94000
+    elif(saldo >= 95000 and saldo <= 95999):
+        bloque_10(95)
+        bloque_0(5)
+        mil()
+        saldo -= 95000
+    elif(saldo >= 96000 and saldo <= 96999):
+        bloque_10(96)
+        bloque_0(6)
+        mil()
+        saldo -= 96000
+    elif(saldo >= 97000 and saldo <= 97999):
+        bloque_10(97)
+        bloque_0(7)
+        mil()
+        saldo -= 97000
+    elif(saldo >= 98000 and saldo <= 98999):
+        bloque_10(98)
+        bloque_0(8)
+        mil()
+        saldo -= 98000
+    elif(saldo >= 99000 and saldo <= 99999):
+        bloque_10(99)
+        bloque_0(9)
+        mil()
+        saldo -= 99000 
+    return saldo
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 #/////////////////////////////////////////////
 def rango_1000(saldo):
     if(saldo == 1000):
