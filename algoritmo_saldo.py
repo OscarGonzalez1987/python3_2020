@@ -926,7 +926,7 @@ def diecinueve():
 def veinte():
     print("veinte")
 def ventiuno():
-    print("ventiuno")
+    print("ventiun")
 def ventidos():
     print("ventidos")
 def ventitres():

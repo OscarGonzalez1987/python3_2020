@@ -1025,7 +1025,7 @@ function veinte() {
 }
 
 function ventiuno() {
-    echo "ventiuno ";
+    echo "ventiun ";
 }
 
 function ventidos() {
